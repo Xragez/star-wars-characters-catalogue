@@ -1,5 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styles from './Text.module.css'
+
+
+const propTypes = {
+  children: PropTypes.string,
+  weight: PropTypes.string,
+  font: PropTypes.string,
+  size: PropTypes.string
+}
 
 function Text(props){
   const weight = props.weight
@@ -13,5 +22,7 @@ function Text(props){
     </p>
   )
 }
+
+Text.propTypes = propTypes
 
 export default Text;

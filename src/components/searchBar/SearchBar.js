@@ -1,8 +1,13 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import Input from '../input/Input'
 import Button from '../button/Button'
 import styles from './SearchBar.module.css'
 
+
+const propTypes = {
+  onSearch: PropTypes.func
+}
 
 function SearchBar(props){
   const [term, setTerm] = useState('')
@@ -22,5 +27,7 @@ function SearchBar(props){
     </div>
   )
 }
+
+SearchBar.propTypes = propTypes
 
 export default SearchBar

@@ -1,7 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styles from './Character.module.css'
 import Text from '../text/Text'
 
+
+const propTypes = {
+  name: PropTypes.string.isRequired,
+  gender: PropTypes.string.isRequired,
+  birth_year: PropTypes.string.isRequired
+}
 
 function Character(props) {
   return(
@@ -24,5 +31,7 @@ function Character(props) {
     </div>
   )
 }
+
+Character.propTypes = propTypes
 
 export default Character
