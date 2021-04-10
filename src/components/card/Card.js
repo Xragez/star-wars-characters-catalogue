@@ -4,7 +4,7 @@ import styles from './Card.module.css'
 
 
 const propTypes = {
-  children: PropTypes.children,
+  children: PropTypes.any,
   onClick: PropTypes.func
 }
 
