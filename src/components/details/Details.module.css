@@ -1,0 +1,14 @@
+.height{
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.films{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  margin: 1rem
+}
