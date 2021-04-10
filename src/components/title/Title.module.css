@@ -1,0 +1,16 @@
+.title{
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.small{
+  font-size: 200%;
+}
+
+.large{
+  font-size: 300%;
+}
