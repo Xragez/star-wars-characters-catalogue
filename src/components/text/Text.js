@@ -4,7 +4,7 @@ import styles from './Text.module.css'
 
 
 const propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.any,
   weight: PropTypes.string,
   font: PropTypes.string,
   size: PropTypes.string

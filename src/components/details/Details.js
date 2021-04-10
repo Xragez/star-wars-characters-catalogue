@@ -5,7 +5,7 @@ import styles from './Details.module.css'
 
 
 const propTypes = {
-  films: PropTypes.object.isRequired,
+  films: PropTypes.array.isRequired,
   height: PropTypes.string.isRequired
 }
 
