@@ -32,6 +32,5 @@ export async function searchName(term){
     .then(result => {
         ret={...result.data.results}
     })
-    console.log(ret)
   return ret
 }
