@@ -1,0 +1,13 @@
+.character{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem 0;
+}
+
+.character p{
+  margin-right: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
