@@ -1,8 +1,8 @@
-#Star Wars Characters Catalogue
+# Star Wars Characters Catalogue
 
 Interactive catalogue of star wars characters created using "The Star Wars API" (`<link>` : <https://swapi.dev/>) and React.
 
-####Features:
+#### Features:
 - List with 10 characters containing basic information (name, gender, birth year)
 - Button to load more characters
 - When you click on a character from the list, more information will be displayed
