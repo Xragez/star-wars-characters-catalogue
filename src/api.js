@@ -21,7 +21,7 @@ export async function fetchFilms(){
   let ret = []
   await axios.get("https://swapi.dev/api/films/")
     .then(result => {
-        ret={...result.data.results}
+        ret=result.data.results
     })
   return ret
 }
@@ -30,7 +30,7 @@ export async function searchName(term){
   let ret = []
   await axios.get(`https://swapi.dev/api/people/?search=${term}`)
     .then(result => {
-        ret={...result.data.results}
+        ret=result.data.results
     })
   return ret
 }
